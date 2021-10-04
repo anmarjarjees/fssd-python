@@ -75,10 +75,10 @@ class Member:
 
 
 # Creating a basic (derived/child/sub-class) class "Basic_Member" from the base (parent) class "Member"
-# We still need to follow the naming convension by starting with Uppercase:
+# We still need to follow the naming convention by starting with Uppercase:
 # We want to let this class "Basic_Member" inherits all the contents of the base class "Member"
 # This child class can use (access) all the fields and methods from the parent class
-
+#
 # A "sub class" inherits all its attributes (properties and methods)
 # from a "parent class" which also include the initializer method
 
