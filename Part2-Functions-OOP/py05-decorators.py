@@ -26,14 +26,14 @@ say_hi()
 # this first function will represent the "Decorator", let's name it "my_decorator"
 # it accepts one parameter that represents the function that we need to invoke
 def my_decorator(func):
-    def wrapper():  # this second function will represent warpper to wrap our function
+    def wrapper():  # this second function will represent wrapper to wrap our function
         # 1. Printing this text
         print("The function has not been called yet. Let's call it.")
         # 2. Run the function
         func()
         # 3. Printing this text
         print("The function was called and has returned a result.")
-    # return the warpper() function
+    # return the wrapper() function
     return wrapper
 
 # Invoking our decorator using the "@" symbol + the decorator name
@@ -64,7 +64,7 @@ say_hello()
 # this first function will represent the "Decorator", let's name it "define_units"
 # it accepts one parameter that represents the function that we need to invoke
 def define_units(measure_unit):
-    # this second function will represent warpper to wrap our function
+    # this second function will represent wrapper to wrap our function
     def decorator_define_units(func):
         # the "func" parameter will represent either either one of these two arguments:
         # in the first call/invoke: the function "convert_cel_fah"

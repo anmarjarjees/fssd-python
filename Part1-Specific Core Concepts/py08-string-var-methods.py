@@ -106,7 +106,7 @@ print(my_code2.isalpha())  # False
 
 # We can use this method object_name.isalpha() to validate the user input
 # if it's a number or sting
-# In JS we used a function named "isNaN()" to determain if the value is number or not
+# In JS we used a function named "isNaN()" to determine if the value is number or not
 # isNaN(myTestVariable)
 
 print("the string method join(): ")
@@ -124,7 +124,7 @@ full_title = " ".join(full_title_tuple)
 print("Our current app: "+full_title)
 
 
-# Let's create a tuple varaible "mition":
+# Let's create a tuple varaible "motion":
 motion = ("jump", "walk", "run")
 print(type(motion))
 print((motion))

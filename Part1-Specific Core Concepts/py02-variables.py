@@ -55,6 +55,6 @@ print(first_number+second_number)  # 15
 
 # Another major/important topic to be explained later:
 # Python Frameworks, Modules and Libraries
-# 1) Prewritten Python code
+# 1) Pre-written Python code
 # 2) To allow quick construction of projects
 # 3) By using functions from frameworks or libraries

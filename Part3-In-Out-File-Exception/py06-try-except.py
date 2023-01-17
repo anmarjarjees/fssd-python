@@ -48,7 +48,7 @@ catch {
 # >> Please Comment/Uncomment this code based on which part of the file you want to run or test:
 # >> You can provoke an error by trying CTRL + C in the terminal.
 # # Application is running == then ==> CTRL + C == Output message ==> "KeyboardInterrupt"
-# This HotKey: CTRL + C will interupt (stop) the application
+# This HotKey: CTRL + C will interrupt (stop) the application
 
 # Example:
 # While True => going into infinite loop
@@ -152,7 +152,7 @@ while True:
         # SyntaxError: default 'except:' must be last
         """
         except:
-            print("Someting goes wrong!")
+            print("Something goes wrong!")
         """
 
     # Checking if inappropriate values (invalid values) have been entered:

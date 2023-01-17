@@ -56,14 +56,14 @@ if my_variable:
     # In Py we DO HAVE to indent (adding spaces)
     # At least (1 space ) has to be placed before each line of this if block:
     # But notice that:
-    # 1. By convension we SHOULD really add one TAB (4 spaces) before each line
+    # 1. By convention we SHOULD really add one TAB (4 spaces) before each line
     # 2. All the lines inside this if condition MUST have the same number of spaces
     # in this example all have (4 spaces = 1 TAB) which is the Python standard
     print("This condition is True")
     print("Here is my second line inside if")
     print("Here is my third line inside if")
     print("That's it, These are all my lines inside if condition")
-# At the end to close the if block, just start typing from the first column (begining)
+# At the end to close the if block, just start typing from the first column (beginning)
 
 # This line is not part of if block
 print("Here is my text outside the if block")

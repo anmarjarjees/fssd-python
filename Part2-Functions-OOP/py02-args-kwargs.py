@@ -82,7 +82,7 @@ print(add_integers({20, 20, 20, 20}))  # 20
 # Rename *args to something suitable: integers
 # *integers => allowing us to use as many integers as we like when calling the function (not only one)
 # this only "one" parameter => takes only one argument
-# but with using the "*" => will make this "one" parameter accept many coma seperated arguments
+# but with using the "*" => will make this "one" parameter accept many coma separated arguments
 
 
 def add_many_integers(*integers):

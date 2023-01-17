@@ -158,7 +158,7 @@ print('Using "None": ')
 # None signifies when there is no value given for something in Python
 # You might declare a variable at the top of a file/function
 # but not have a value to assign to it at that moment
-# Examles:
+# Examples:
 age = None
 total = None
 age = 20

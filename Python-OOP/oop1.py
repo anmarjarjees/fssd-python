@@ -51,7 +51,7 @@ class Member:  # <= this is the blueprint to create multiple members
 # It exists live in RAM until the point it is removed
 
 
-# Creating our first instace (member):
+# Creating our first instance (member):
 # ***********************************
 # we will create our first member:
 # When you create an instance of the class, it is the initializer code that runs

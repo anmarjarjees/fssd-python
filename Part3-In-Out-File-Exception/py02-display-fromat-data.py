@@ -59,7 +59,7 @@ print(tabulate)
 print(type(tabulate))  # <class 'dict'>
 
 # simple loop to print the tabulate:
-# This loop is not usefull! It will print every item 3 times because we have 3 elements
+# This loop is not useful! It will print every item 3 times because we have 3 elements
 """
 for item in tabulate:
     print(tabulate)
@@ -97,7 +97,7 @@ for key, value in tabulate.items():
 
 # Loops over a dictionary:
 for key, value in tabulate.items():
-    # The format specifiers here denote a minimum width of 25 for the key lables
+    # The format specifiers here denote a minimum width of 25 for the key labels
     # and 5 characters for values of each key
     print(f'{key} - {pound} {value}')
 # The output:
@@ -107,7 +107,7 @@ for key, value in tabulate.items():
 
 # Loops again over a dictionary of menu items as keys and prices as values
 for item, price in tabulate.items():
-    # The format specifiers here denote a minimum width of 25 for the key lables
+    # The format specifiers here denote a minimum width of 25 for the key labels
     # and 5 characters for values of each key
     print(f'{item:25} - {pound} {price:5}')
 # The output:

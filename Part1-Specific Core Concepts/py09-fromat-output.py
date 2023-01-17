@@ -29,7 +29,7 @@ program_name = "FSSD"  # string value and string data type
 age = 28  # numeric value and numeric data type
 
 # Task output: "Alex Chow is one of our FSSD program students. His age is 28, good luck Mr. Chow!"
-# Now, we can't use this way by typing the text litrally! We need to use our variables:
+# Now, we can't use this way by typing the text literally! We need to use our variables:
 print("Alex Chow is one of our FSSD program students. His age is 28, good luck Mr. Chow!")
 
 # First Way: using str() function [if needed] with the concatenating symbol +:

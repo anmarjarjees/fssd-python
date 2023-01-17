@@ -79,7 +79,7 @@ class Member:
 
 # Now our class is done, it's the time to create a new object of that class:
 # Very Important Note:
-# In this time when we create an object we must specify two values (arguments) inside the paranthesis
+# In this time when we create an object we must specify two values (arguments) inside the parenthesis
 # The reason why is because we modified the default autorun method "__init__(self)"
 # We changed this function (method) signiture to make it accepting two parameters as required values
 # So we CANNOT just create a new object by typing member1 =Member() as we did in app1.py, we will receive an error

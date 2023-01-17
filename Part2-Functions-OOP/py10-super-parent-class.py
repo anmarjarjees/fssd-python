@@ -68,7 +68,7 @@ class Fowl(Bird):
                                         'includes over 170 species of waterfowl,\n'
                                         'among them the ducks, geese, and swans.\n'}
         self.type = type
-        # Useing of super() to denote which instance attributes are inherited from the superclass Bird.
+        # Using of super() to denote which instance attributes are inherited from the superclass Bird.
         # Uses super() function to state kind, call from superclass Bird
         super().__init__(kind, call)
 

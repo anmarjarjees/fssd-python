@@ -5,10 +5,10 @@
 # but we can import a module named datetime to work with dates as date objects.
 # you can read more: https://www.w3schools.com/python/python_datetime.asp
 
-# We can import datatime in this pattern: import module_name
+# We can import datetime in this pattern: import module_name
 # import datetime
 
-# Or importring the datatime using this pattern: from module_name import class_name, function_name
+# Or importing the datetime using this pattern: from module_name import class_name, function_name
 from datetime import datetime
 
 
@@ -120,9 +120,9 @@ class Member:
         dob_day = int(self.dob[8:10])
 
         # After getting the 3 values of Year, Month, and Day individually
-        # We can convert them into a valid Python object of "Datatime"
+        # We can convert them into a valid Python object of "datetime"
         # So we can deduct the current date object from the dob object
-        # tinking like object - object :-)
+        # thinking like object - object :-)
 
         # Creating a new object named "dob_obj" based on the values of YYYY, MM, and DD
         # The pattern/syntax: our_date_obj = datetime(1972,06,12)

@@ -14,7 +14,7 @@
 # the "in" keyword is used in a for-loop
 
 # Below is our JS array:
-# let sports = ["Basketball", "Football", "Tennis", "Chess", "Swiming", "Running"];
+# let sports = ["Basketball", "Football", "Tennis", "Chess", "Swimming", "Running"];
 
 # In Python we use the plain english word "List" to refer to an array variable:
 # below is a list (array in JS)
@@ -37,7 +37,7 @@ for language in languages:
 # We can also loop through a string!
 my_current_subject = "Python Fundamentals"
 
-# Like JS, Python string charaters have index values that start with 0
+# Like JS, Python string characters have index values that start with 0
 
 # for loop to print every single character in the string variable my_current_subject
 for character in my_current_subject:
@@ -92,7 +92,7 @@ for odd_number in range(9, 0, -2):
 
 # Your last challenge of this topic is to:
 # Use the range() function to print the numbers from 0 to 255, inclusive.
-for number in range(256):  # We need to remember puting 256 to get the max value of 255
+for number in range(256):  # We need to remember putting 256 to get the max value of 255
     print(number)
 
 
@@ -129,7 +129,7 @@ while play_game:  # this while loop will stop when play_game value became False
     # We have two options either y or n, plus one extra option: the user might enter invalid value
     # if then elif then else
 
-    # We can determain if the user will input "y" or "Y"
+    # We can determine if the user will input "y" or "Y"
     # if continue_playing=="y" or continue_playing=="Y":
     # OR: using the lower() method for the string (object-class)
     if continue_playing.lower() == "y":

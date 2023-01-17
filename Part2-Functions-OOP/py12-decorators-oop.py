@@ -1,7 +1,7 @@
 # Decorators in OOP
 # A decorator is a way in Python to add new functionality to an existing method without modifying its structure.
 # This is useful as you do not need to create new functionality in your code if a decorator already exists for that purpose.
-# Which a software design pattern that is used to alter methods (functions) by warpping them in the decorators
+# Which a software design pattern that is used to alter methods (functions) by wrapping them in the decorators
 
 class Bird(object):
     """
@@ -30,7 +30,7 @@ class Fowl(Bird):
             Important Note About Private Properties/Methods:
             ===============================================
             We have an instance variable called "_fowl_types" with information about the species.
-            This instacne variable "fowl_types" has the "__" before its name:
+            This instance variable "fowl_types" has the "__" before its name:
             We don't want to accidentally corrupt this information. 
             Classes should only share what data is needed. 
             This is known as Encapsulation and Separation of Concerns. 

@@ -1,5 +1,5 @@
 # Third Party Libraries:
-# Libraries created for Python => Prewritten code
+# Libraries created for Python => Pre-written code
 
 """
 In addition to the built-in libraries, 
@@ -8,7 +8,7 @@ A library is a collection of modules that have some common functionality.
 There is a Python Package Index (pypi.org) where these open source projects are shared.
 """
 
-# Python Framewors, Modules, and Libraries:
+# Python Frameworks Modules, and Libraries:
 # - NumPy
 # - pandas
 # - Scrapy

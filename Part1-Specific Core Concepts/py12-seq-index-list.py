@@ -17,7 +17,7 @@ print(
     f"So your first character in your text is \"{my_string[0]}\", and your second character is \"{my_string[1]}\"! Look we know everything")
 
 
-# If you put only one charater => IndexError: string index out of range
+# If you put only one character => IndexError: string index out of range
 # example
 for one_char in my_string:
     print(one_char)
@@ -71,7 +71,7 @@ counter = 0  # Step 1. the initial value of our loop counter
 while counter < len(fruits):  # Step 2. the condition to keep the loop running
     # print the elements of this array:
     print(fruits[counter])
-    # we need NOT to foreget changing the loop counter
+    # we need NOT to forget changing the loop counter
     counter += 1  # Step 3. the counter value has to be incremented/decremented
 
 # Sometimes we can use while loop without a loop counter like for loop

@@ -1,6 +1,6 @@
 # os.path()
 # built-in module in the os library
-# Provides functions for manipulating pathnames
+# Provides functions for manipulating path names
 
 # import the os library:
 import os
@@ -13,7 +13,7 @@ import os
 print(os.path.join('/home/runner/', 'os'))
 
 # In the steps below:
-# takening the absolute path and joined it with the current working directory.
+# taking the absolute path and joined it with the current working directory.
 path = "/home/runner/os/main.py"
 
 # Splits the path into a pair (head, tail) where the tail is the end of the pathname

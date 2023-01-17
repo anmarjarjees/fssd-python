@@ -5,7 +5,7 @@
 # Start Icon (Windows) => Python 3.9.x => open python shell
 # This Shell window just for writing quick commands in python (Line by line)
 
-# you can use also python IDLE (the default editor that comes with python installion)
+# you can use also python IDLE (the default editor that comes with python installation)
 # IDLE is Python’s Integrated Development and Learning Environment
 # Very Important Notes about comments in Python IDLE:
 # We can use these hotkeys to comment block of lines:

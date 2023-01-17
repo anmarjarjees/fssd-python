@@ -64,9 +64,9 @@ print(find_average(90, 93))  # 91.5
 # This is called the "enclosing scope"
 
 # Examples:
-# Creating a function that accpets two parameters:
+# Creating a function that accepts two parameters:
 # 1) a list (array) of numbers
-# 2) a numberic value of 1 or 2:
+# 2) a numeric value of 1 or 2:
 # -- if it's "1" => return the total
 # -- if it's "2" => return the average
 

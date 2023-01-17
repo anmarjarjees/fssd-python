@@ -118,7 +118,7 @@ my_subjects = ["HTML", "CSS", "Bootstrap", "JavaScript",
                "jQuery", "Python", "Flask", "Databases", "Django"]
 x = slice(1, 7, 2)
 # 1: will be "CSS"
-# 7: the highset index that we can reach is 6
+# 7: the highest index that we can reach is 6
 # 2: think about 2 like x +=2 by moving two
 print(my_subjects[x])
 # ["CSS", "JavaScript", "Python"]

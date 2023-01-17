@@ -4,7 +4,7 @@
 # You can specify otherwise with a python keyword
 # Use "global" or "nonlocal" keywords when defining variables
 
-# IMPORTANT NOTE ABOUT VARIABLES INSIDE/OUSTIDE FUNCTIONS:
+# IMPORTANT NOTE ABOUT VARIABLES INSIDE/OUTSIDE FUNCTIONS:
 # ********************************************************
 # In many or most other programming languages variables are treated as global if not otherwise declared,
 # Python deals with variables the other way around. They are "local", if not otherwise declared.
@@ -31,7 +31,7 @@ def my_function():
     # UnboundLocalError: local variable 'my_test_var' referenced before assignment
 
     # The solutions:
-    # either placing the print() statement after the assignment statemet with the value of 7
+    # either placing the print() statement after the assignment statement with the value of 7
     # or remove the assignment statement => my_test_var = 7
     # Yes, unfortunately this the fact in Python! (Not like other programming languages)
     # print(f"Printing the original value my_test_var inside my_function(): {my_test_var}")

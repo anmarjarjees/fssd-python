@@ -85,7 +85,7 @@ finally:
     f.__exit__()
 """
 
-# Important Conclustion: You do not need to type any of this code.
+# Important Conclusion: You do not need to type any of this code.
 # Just use the "with open" statement as follows:
 """
 with open(filename) as f:

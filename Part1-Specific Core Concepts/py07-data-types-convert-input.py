@@ -102,9 +102,9 @@ age = int(input("Please enter your age: "))
 # we know that input function returns a string data type,
 # if the user inputs 24 => 24 will become "24"
 # now remember after using int() function, the variable age contains an integer number!
-# we have two functions to cenvert a string of numbers into real numeric numbers:
-# int() => works with integers (whole numbers) - Similar to parseInt() in JavaScirpt :-)
-# float() =>  works with both (integers numbers and float) - Similar to parseFloat() in JavaScirpt :-)
+# we have two functions to convert a string of numbers into real numeric numbers:
+# int() => works with integers (whole numbers) - Similar to parseInt() in JavaScript :-)
+# float() =>  works with both (integers numbers and float) - Similar to parseFloat() in JavaScript :-)
 
 # Task#2:
 days = 365 * age
@@ -187,7 +187,7 @@ print("Hello " + user_name + "! Based on your age which is " +
 # We have other three options (solutions)
 # Solution#2:
 # Create placeholder items for each variable inside the string using "%s"
-# and then refer to them later by using: %(list your variables as comma seperated)
+# and then refer to them later by using: %(list your variables as comma separated)
 print("Hello %s! Based on your age which is %s, you have been alive for %s days." %
       (user_name, age, days))
 
@@ -253,7 +253,7 @@ print("Hello", user_name, "! Based on your age which is",
 
 # Python functions include
 ##
-# int() => Convert a float or string to an int (similar to JS paraseFloat())
+# int() => Convert a float or string to an int (similar to JS parseFloat())
 # examples:
 # int("35") => 35
 # int(67.792) => 67

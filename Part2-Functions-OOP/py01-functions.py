@@ -157,7 +157,7 @@ def add1(a, b):
 
 # Writing the same function using lambda
 # As you can see the function has no name (hence anonymous) so we have assigned it to the variable add
-# The pattern: "lambda" the list of the parameters with commas : one experssion (one statement)
+# The pattern: "lambda" the list of the parameters with commas : one expression (one statement)
 
 
 def add2(a, b):

@@ -57,7 +57,7 @@ class Member:
         # number_list = ["1","2","3","4","5"]
 
         # example: full_name = "Alex Chow"
-        # the delimeter is just a space between Alex and Chow
+        # the delimiter is just a space between Alex and Chow
 
         # Note:
         # name_parts is just a temporary local variable to be used within this method ONLY
@@ -70,7 +70,7 @@ class Member:
 
         # Python will split the text based on the space in between the first and the last name
         # name_parts = [ 'The value of the first name', 'The value of the last name' ]
-        # expample:
+        # example:
         # full_name= 'Martin Smith'
         # we use: name_parts = full_name.split(' ')
         # name_parts = ['Martin','Smith']
