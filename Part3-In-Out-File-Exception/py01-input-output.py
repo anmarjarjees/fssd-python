@@ -43,7 +43,6 @@ i = 10 + 20
 # just print i
 print(i)
 
-
 # We have assigned a string to variable language and an integer to variable version.
 language = "Python"
 version = 3.9

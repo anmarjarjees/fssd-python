@@ -96,7 +96,7 @@ read_file = my_file.read()
 
 # close the file:
 my_file.close()
-# Notice that we can close the file after using any mehtod and save it's returned value
+# Notice that we can close the file after using any method and save it's returned value
 # otherwise, if you close the file and try to access it again:
 # ValueError: I/O operation on closed file.
 

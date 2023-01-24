@@ -1,7 +1,7 @@
 # Python Essentials
 
 ## About This Repo:
-Python Essentials Code Examples and Exercises with Comments for My Students - *"Full-Stack Software Development Diploma"* and *"Computer Programming Diploma"* Programs
+Python Essentials Code Examples and Exercises with Comments for My Students - *"Full-Stack Software Development (FSSD) Diploma"* and *"Computer Programming Diploma"* Programs
 
 ## References and Resources:
 - Code Institute | Full Stack Software Development Diploma - Python Essentials
@@ -16,6 +16,6 @@ Python Essentials Code Examples and Exercises with Comments for My Students - *"
 - PythonTutor.com
 - Please refer to my class materials and the pdf files for more details and explanations
 
-#### NOTE: You can open any link in a new tab using either from the following ways:
-- Hold down the CTRL Key in windows or COMMAND key in Mac then click it
+#### NOTE: You can open any link in a new tab using either of the following ways:
+- Hold down the CTRL Key in windows or the COMMAND key on Mac then click it
 - Right-click the link and choose to open the link in a new tab or new window from the context menu
