@@ -4,7 +4,7 @@
 # NOTE: for loop can iterate over a sequence that is a list, tuple, dictionary, set or string
 
 # in JS:
-# for (var count=1; count<11; count++)
+# for (let count=1; count<11; count++)
 # {
 # write the code
 # }

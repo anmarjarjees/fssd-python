@@ -1,22 +1,58 @@
+""" 
+All members (instance variables and methods) in a Python class are "public" by default. Any member can be accessed from outside the class environment.
+
+Prtoectd Members:
+Protected members of a class are accessible from within the class and are also available to its sub-classes.
+
+By "convention", adding the prefix _ (single underscore) to the instance varaible or method. 
+So it will not prevent the access!
+
+Private Members:
+Private members of a class are accessible withing the class only
+The most secured modifier
+Class members can be private by adding the prefix __ (double undresore)
+They cannot be accessed outside the class, doing so will give an AttributeError
+
+Q) How to access private fields outside the class?
+A) Using Getters and Setters as with Java and C#
+"""
 class Member:
-    # *********************************************
+    # *******************************************
     # NOTE: Class Attribute vs Instance Attribute
+    # *******************************************
     # Class Attribute:
     # ----------------
-    # a variable created within (inside) the class,
-    # but outside the constructor function (__init()__),
-    # it is shared between (can be accessed by) all objects/instances of this class
+    # a variable created within "inside" the class,
+    # but "outside" the constructor function (__init()__),
+    # it is shared across (can be accessed by) all objects/instances of this class
 
     # Instance Attribute:
     # -------------------
-    # a variable created within within the constructor function (__init()__),
+    # a variable created "within" the constructor function (__init()__),
     # An instance attribute is only accessible from the scope
-    # of an object instantiated from the class scope
+    # of an object instantiated from the class scope (Specific to object)
     # ******************************************************************
+
+    # Examples of "Class Attribute"
+    # Note:
+    # below "info" is a "global" class variable
+    # (created inside the class but NOT inside any method)
+    # which means it's not written or declared inside any Class function
+    # for this reason we CANNOT attach the keyword "self" to it
+    # but this class variable (field) "info" can be accessed with the class object
+    # For now, let's just assign a fixed value (string) for learning purpose
+    info = "CBC Club's Member"
+
+    # More Examples:
+    clubName = "Blue Sky" # public class field (attribute)
+    _clubLocation = 'Toronto' # protected class field (attribute)
+    __clubManeger = 'Alex Chow' # private class field (attribute)
 
     # we are modifying Python Class hidden built-in function (method) named: __init()__
     # We are passing the argument "title" with a default of just an empty string
+    # Constructor:
     def __init__(self, full_name, dob, title=""):
+        # Instance Attributes: name, dob, job_title, any_thing
         # again: self.name and self.dob are just a variable for our class
         # any variable we create inside a class using the keyword "self" can be called "Field"
         self.name = full_name  # self.name will be the full name of the member
@@ -24,6 +60,12 @@ class Member:
         self.job_title = title
         # for fun:
         self.any_thing = "I don't know!"
+        # more:
+        self.test1="Test 1" # public
+        self._test2="Test 2" # protected
+        self.__test3="Test 3" # private
+
+
 
         # Our Task:
         # Create two class fields (variables inside a class):
@@ -104,17 +146,7 @@ class Member:
         # Which can only be accessed within the method body (a local scope variable)
         # index 1 will have the first name value
         last_name = name_parts[1]
-        # self.last_name = name_parts[1]
-
-    # Examples of "Class Attribute"
-    # Note:
-    # below "info" is a "global" class variable
-    # (created inside the class but NOT inside any method)
-    # which means it's not written or declared inside any Class function
-    # for this reason we CANNOT attach the keyword "self" to it
-    # but this class variable (field) "info" can be accessed with the class object
-    # For now, let's just assign a fixed value (string) for learning purpose
-    info = "CBC Club's Member"
+        # self.last_name = name_parts[1]    
 
 
 # Creating our object "member1"

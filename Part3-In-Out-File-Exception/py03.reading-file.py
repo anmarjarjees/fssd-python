@@ -13,7 +13,7 @@
 # then use python io to open the file and read the contents
 
 # The python function:
-# # open() to open a file
+# open() to open a file
 
 # The python methods:
 # readlines() which reads all the lines into a list (this method returns a list)

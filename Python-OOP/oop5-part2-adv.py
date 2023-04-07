@@ -40,7 +40,7 @@ class Member:
         # as we will calculate based on the self.dob field value that we received in __init()__
         # Since we are going to work with Dates, We need to import the datetime module
         # First we need to get the today date:
-        today = datetime.now()  # instead of typing datetime.datetime.now()
+        today = datetime.datetime.now()  # instead of typing datetime.datetime.now()
         print(type(today))  # <class 'datetime.datetime'>
         print(today)  # 2021-05-06 12:10:26.709542
 

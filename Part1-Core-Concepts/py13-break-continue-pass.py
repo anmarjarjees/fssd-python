@@ -25,7 +25,7 @@ while counter < len(fruits):
         break
 
     print(fruits[counter])
-    counter += 1  # In python we don't counter++ sa we used to have in JS
+    counter += 1  # In python we don't counter++ as we used to have in JS
 
 print("****************")
 

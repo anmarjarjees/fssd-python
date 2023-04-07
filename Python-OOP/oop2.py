@@ -4,6 +4,9 @@
 # Initialization (the step to create an instance of a class)
 # So a simple class can contain fields/properties and methods (functions inside class)
 # Notice that Class can have a help/descriptive text to describe it (for later) so stay tuned :-)
+""" 
+All members in a Python class are "public" by default. Any member can be accessed from outside the class environment.
+"""
 class Member:
     # Any class has a "hidden" function (that doesn't have any parameters) named: __init__(self)
     # the double underscores (before/after) __ it's a built-in python function
@@ -45,7 +48,7 @@ class Member:
         # we have to use the pattern: self.field_name = the function parameter (the argument)
 
         # Properties (Fields):
-        # ----------
+        # --------------------
         self.name = full_name  # one single string value that contains both first and last name
         self.dob = dob  # YYYY-MM-DD
 

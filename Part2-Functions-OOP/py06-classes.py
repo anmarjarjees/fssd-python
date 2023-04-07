@@ -35,6 +35,7 @@ class HelloWorld:
 # The __init__() Method:
 # **********************
 # >> It initializes the properties of the instance
+# >> It's a constructor like in C# or Java
 # >> It runs when an instance of the class is created is an initializer
 # >> IT is known as a dunder, double-underscore or magic method
 # >> It one of these types of methods:
@@ -44,7 +45,7 @@ class HelloWorld:
 # >> It can take arguments
 
 class Car:
-    def __init__(self, color, make, model, fueltype):
+    def __init__(self, color, make, model, fuel_type):
         # Using "self" keyword
         # for example the color of green that we assign to our object "bulitt"
         # The self keyword is used to confirm that the argument "Green"
@@ -53,7 +54,7 @@ class Car:
         self.color = color
         self.make = make
         self.model = model
-        self.fueltype = fueltype
+        self.fuel_type = fuel_type
 
 
 # Initializing a Car object with attributes 'Green', 'Ford', 'Mustang' and 'Gasoline'

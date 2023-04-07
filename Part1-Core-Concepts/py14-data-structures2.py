@@ -21,7 +21,7 @@ print(my_fav_fruits)  # ['apple', 'banana', 'peach', 'pear']
 print(fruits[:2])  # ['apple', 'banana']
 
 # Will start from index 4 and will continue till the rest by default
-print(fruits[4:])  # ['plum', 'orange']
+print(fruits[4:])  # ['plum']
 
 # Without specifying the starting index and the end index
 # Will take all the array elements by default
@@ -48,7 +48,7 @@ print(letters[0:7:2])  # ['A', 'C', 'E', 'G']
 
 # Tuples: provide us with another means (format) of storing collections of data
 # Tuples are also 0 based index
-my_tuple = ("Hellow", "World")  # it's ( ) not [ ] like a list
+my_tuple = ("Hello", "World")  # it's ( ) not [ ] like a list
 # to access any element in teh tuple structure we use the [ ]
 print(my_tuple[1])  # World
 
